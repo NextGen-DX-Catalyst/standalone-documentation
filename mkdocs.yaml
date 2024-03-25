@@ -1,0 +1,8 @@
+site_name: "standalone-example"
+site_description: "Example documentation"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

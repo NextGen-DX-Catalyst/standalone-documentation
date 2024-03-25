@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "standalone-example"
+  description: "Example documentation"
+  annotations:
+    github.com/project-slug: NextGen-DX-Catalyst/standalone-documentation
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/fraud-and-compliance"
